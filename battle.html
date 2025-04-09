@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./asset/style/style.css">
+    <title>Combat Pokémon</title>
+</head>
+<body>
+    <div class="pokedex-container">
+        <div class="pokedex-screen">
+            <div class="screen-header">
+                <img src="./asset/img/pokodex_logo.svg" alt="Logo Pokédex" class="pokedex-logo">
+                <div class="screen-controls">
+                    <div class="power-light"></div>
+                    <div class="screen-buttons">
+                        <button class="screen-button"></button>
+                        <button class="screen-button"></button>
+                    </div>
+                </div>
+                <a href="index.html" class="battle-button">🏠 Pokédex</a>
+            </div>
+
+            <div class="battle-arena">
+                <!-- Pokémon adverse -->
+                <div class="opponent-pokemon">
+                    <div class="pokemon-info">
+                        <h2>Adversaire</h2>
+                        <div class="health-bar">
+                            <div class="health-fill"></div>
+                        </div>
+                        <p class="health-text">HP: 100/100</p>
+                    </div>
+                    <div class="pokemon-sprite">
+                        <img src="" alt="Pokémon adverse">
+                    </div>
+                </div>
+
+                <!-- Message de combat -->
+                <div class="battle-message">
+                    Sélectionnez un Pokémon pour commencer le combat!
+                </div>
+
+                <!-- Pokémon du joueur -->
+                <div class="player-pokemon">
+                    <div class="pokemon-info">
+                        <h2>Votre Pokémon</h2>
+                        <div class="health-bar">
+                            <div class="health-fill"></div>
+                        </div>
+                        <p class="health-text">HP: 100/100</p>
+                    </div>
+                    <div class="pokemon-sprite">
+                        <img src="" alt="Votre Pokémon">
+                    </div>
+                </div>
+
+                <!-- Actions de combat -->
+                <div class="battle-actions">
+                    <!-- Les boutons seront ajoutés dynamiquement par JavaScript -->
+                </div>
+            </div>
+
+            <!-- Sélection des Pokémon -->
+            <div class="pokemon-selection">
+                <h2>Sélectionnez votre Pokémon</h2>
+                <div class="pokemon-list">
+                    <!-- La liste des Pokémon sera ajoutée dynamiquement par JavaScript -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./asset/js/battle.js"></script>
+</body>
+</html>

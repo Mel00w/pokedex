@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./asset/style/style.css">
+    <title>Détails du Pokémon</title>
+</head>
+<body>
+    <div class="pokedex-container">
+        <div class="pokedex-screen">
+            <div class="screen-header">
+                <img src="./asset/img/pokodex_logo.svg" alt="Logo Pokédex" class="pokedex-logo">
+                <div class="screen-controls">
+                    <div class="power-light"></div>
+                    <div class="screen-buttons">
+                        <button class="screen-button"></button>
+                        <button class="screen-button"></button>
+                    </div>
+                </div>
+                <a href="index.html" class="battle-button">🏠 Pokédex</a>
+            </div>
+
+            <div class="pokemon-details-container">
+                <div class="navigation-arrows">
+                    <button id="prev-button" class="nav-button">← Précédent</button>
+                    <span id="current-id" class="pokemon-id">N°</span>
+                    <button id="next-button" class="nav-button">Suivant →</button>
+                </div>
+                
+                <div id="pokemon-details" class="pokemon-details-content"></div>
+            </div>
+
+            <div class="pokedex-controls">
+                <div class="d-pad">
+                    <button class="d-pad-button up">↑</button>
+                    <div class="d-pad-middle">
+                        <button class="d-pad-button left">←</button>
+                        <button class="d-pad-button right">→</button>
+                    </div>
+                    <button class="d-pad-button down">↓</button>
+                </div>
+                <div class="action-buttons">
+                    <button class="action-button a-button">A</button>
+                    <button class="action-button b-button">B</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Éléments décoratifs -->
+        <div class="pokedex-hinge"></div>
+        <div class="pokedex-hinge"></div>
+        <div class="pokedex-hinge"></div>
+    </div>
+
+    <script src="./asset/js/pokemon-detail.js"></script>
+</body>
+</html>
